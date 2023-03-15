@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOATAZ</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Style Sheet file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header-1">
+        <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
+        <nav class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <header class="header-2">
+        <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
+        <div class="parent" onmouseleave="close_menu()">
+            <div class="menu" onclick="open_menu()" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="links" id="links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="landing">
+        <div class="container cont-landing">
+            <div class="bg">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_iv4dsx3q.json"  background="transparent"  speed="1"  loop  autoplay class="landing-animate"></lottie-player>
+            </div>
+            <div class="text">
+                <h1>HI I'AM 
+                <br><span class="myname">Moataz Anwar</span> 
+                <br><span class="i-am">I'AM A : </span> <span class="auto-type"></span></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        
+    </section>
+    
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Front End Web Developer", "Designer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+        });
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
