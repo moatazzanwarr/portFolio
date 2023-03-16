@@ -420,7 +420,7 @@ body {
   margin-left: 30px;
   padding-right: 10px;
   width: 70%;
-
+  border-radius: 30px;
 
 }
 
@@ -428,6 +428,7 @@ body {
   height: 30px;
   width: 90%;
   background-color: #c850c0;
+  border-radius: 30px;
 }
 
 @media(max-width: 767px){
@@ -468,6 +469,7 @@ body {
   border: 1px solid #fff;
   margin-left: 30px;
   width: 70%;
+  border-radius: 30px;
   
 }
 
@@ -475,6 +477,7 @@ body {
   height: 30px;
   width: 80%;
   background-color: #c850c0;
+  border-radius: 30px;
  
 }
 
@@ -517,12 +520,15 @@ body {
   border: 1px solid #fff;
   margin-left: 30px;
   width: 70%;
+  border-radius: 30px;
+
 }
 
 .skills .javascript .parent div{
   height: 30px;
   width: 70%;
   background-color: #c850c0;
+  border-radius: 30px;
  
 }
 
@@ -544,7 +550,66 @@ body {
   }
 }
 
-
-
 /* End Skills*/
 
+/* Start Contact */
+
+.contact{
+    padding: 70px 0;
+}
+
+.cantact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 17px;
+  border: 1px solid #c850c0;
+}
+.email{
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 17px;
+  border: 1px solid #c850c0;
+}
+.area{
+  width: 100%;
+  height: 100px;
+  padding: 20px 0 0 20px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 17px;
+  border: 1px solid #c850c0;
+}
+
+.send-btn{
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 30px auto;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  background: #4C2D86;
+  transition: 0.3s ease;
+}
+
+.send-btn:hover{
+  background: #c850c0;
+}
+
+/* End Contact */
