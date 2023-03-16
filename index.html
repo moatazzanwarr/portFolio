@@ -1,131 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOATAZ</title>
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <!-- Style Sheet file -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header class="header-1">
-        <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
-        <nav class="links">
-                <a href="index.html"  class="active">Home</a>
-                <a href="#about" class="link-2">About</a>
-                <a href="#skills" class="link-3">Skills</a>
-                <a href="#contact" class="link-4">Contact</a>
-        </nav>
+      <a href="#"><img class="logo" src="images/logo.png" alt="logo" /></a>
+      <nav class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="#about" class="link-2">About</a>
+        <a href="#skills" class="link-3">Skills</a>
+        <a href="#contact" class="link-4">Contact</a>
+      </nav>
     </header>
 
     <header class="header-2">
-        <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
-        <div class="parent" onmouseleave="close_menu()">
-            <div class="menu" onclick="open_menu()" >
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav class="links" id="links">
-                    <a href="index.html">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#contact">Contact</a>
-            </nav>
+      <a href="#"><img class="logo" src="images/logo.png" alt="logo" /></a>
+      <div class="parent" onmouseleave="close_menu()">
+        <div class="menu" onclick="open_menu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <nav class="links" id="links">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <section class="landing">
-        <div class="container cont-landing">
-            <div class="bg">
-                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_iv4dsx3q.json"  background="transparent"  speed="1"  loop  autoplay class="landing-animate"></lottie-player>
-            </div>
-            <div class="text">
-                <h1>HI I'AM 
-                <br><span class="myname">Moataz Anwar</span> 
-                <br><span class="i-am">I'AM A : </span> <span class="auto-type"></span></h1>
-            </div>
+      <div class="container cont-landing">
+        <div class="bg">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player
+            src="https://assets8.lottiefiles.com/packages/lf20_iv4dsx3q.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            class="landing-animate"
+          ></lottie-player>
         </div>
+        <div class="text">
+          <h1>
+            HI I'AM <br /><span class="myname">Moataz Anwar</span> <br /><span
+              class="i-am"
+              >I'AM A :
+            </span>
+            <span class="auto-type"></span>
+          </h1>
+        </div>
+      </div>
     </section>
 
     <section class="about-section" id="about">
-        <h1 class="heding">About</h1>
-        <div class="container about-container">
-            <div class="me">
-                <img src="images/me.jpg" alt="me">
-            </div>
-            <div class="content">
-                <div>
-                    <h1>HI There</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                         Porro error nihil excepturi cumque ea aut alias nostrum quo?
-                          Odio itaque enim mollitia</p>
-                </div>
-            </div>
+      <h1 class="heding">About</h1>
+      <div class="container about-container">
+        <div class="me">
+          <img src="images/me.jpg" alt="me" />
         </div>
+        <div class="content">
+          <div>
+            <h1>HI There</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+              error nihil excepturi cumque ea aut alias nostrum quo? Odio itaque
+              enim mollitia
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="skills" id="skills">
-        <h1 class="heding">Skills</h1>
-        <div class="container">
-            <div class="html">
-                <h4>HTML : </h4>
-                <div class="parent">
-                    <div></div>
-                </div>
-            </div>
-
-            <div class="css">
-                <h4>CSS : </h4>
-                <div class="parent">
-                    <div></div>
-                </div>
-            </div>
-
-            <div class="javascript">
-                <h4>JAVASCRIPT : </h4>
-                <div class="parent">
-                    <div></div>
-                </div>
-            </div>
+      <h1 class="heding">Skills</h1>
+      <div class="container">
+        <div class="html">
+          <h4>HTML :</h4>
+          <div class="parent">
+            <div></div>
+          </div>
         </div>
+
+        <div class="css">
+          <h4>CSS :</h4>
+          <div class="parent">
+            <div></div>
+          </div>
+        </div>
+
+        <div class="javascript">
+          <h4>JAVASCRIPT :</h4>
+          <div class="parent">
+            <div></div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="projects">
-
-    </section>
+    <section class="projects"></section>
 
     <section class="contact" id="contact">
-        <h1 class="heding">Contact</h1>
-        <div class="container cantact-container" >
-            <form action="" onsubmit="return check()" novalidate>
-                <input type="text" placeholder="Type Your Name" name="Name" class="name" id="name">
-                <input type="email" placeholder="Type Your Email" name="Email" class="email" id="email">
-                <textarea name="textarea" class="area" id="area" placeholder="Your Message"></textarea>
-                <button type="submit" class="send-btn" id="send_btn">Send</button>
-            </form>
-        </div>
+      <h1 class="heding">Contact</h1>
+      <div class="container cantact-container">
+        <form action="" onsubmit="return check()" novalidate>
+          <input
+            type="text"
+            placeholder="Type Your Name"
+            name="Name"
+            class="name"
+            id="name"
+          />
+          <input
+            type="email"
+            placeholder="Type Your Email"
+            name="Email"
+            class="email"
+            id="email"
+          />
+          <textarea
+            name="textarea"
+            class="area"
+            id="area"
+            placeholder="Your Message"
+          ></textarea>
+          <button type="submit" class="send-btn" id="send_btn">Send</button>
+        </form>
+      </div>
     </section>
-    
 
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
 
     <script>
-        var typed = new Typed(".auto-type", {
-            strings: ["Front End Web Developer", "Designer"],
-            typeSpeed: 150,
-            backSpeed: 150,
-            loop: true,
-        });
+      var typed = new Typed(".auto-type", {
+        strings: ["Front End Web Developer", "Designer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
     </script>
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
